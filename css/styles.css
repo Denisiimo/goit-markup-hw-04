@@ -1,3 +1,7 @@
+:root {
+    --main-color: #FFFFFF;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #212121;
@@ -38,7 +42,7 @@ h1,h2,h3,h4,h5,h6,p {
     font-size: 16px;
     line-height: 2.14;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--main-color);
     background: #2196F3;
     cursor: pointer;
     border: none;
@@ -459,8 +463,8 @@ h1,h2,h3,h4,h5,h6,p {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-bottom: 20px;
-    margin-bottom: 0;
+    margin-bottom: 20px;
+    padding-bottom: 0;
 }
 
 .footer-soc-list {
@@ -498,10 +502,6 @@ h1,h2,h3,h4,h5,h6,p {
 .container-soc-footer {
     padding-top: 12px;
     padding-bottom: 40px;
-}
-
-.footer-address-container {
-
 }
 
 .footer-flex {
